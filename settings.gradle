@@ -10,7 +10,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
+        maven { url "https://jitpack.io" }
     }
 }
-rootProject.name = "JayWalker_Alert"
+rootProject.name = "ITSASBeta1"
 include ':app'
